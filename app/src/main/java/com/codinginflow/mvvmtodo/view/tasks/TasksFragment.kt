@@ -13,13 +13,14 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.codinginflow.mvvmtodo.R
 import com.codinginflow.mvvmtodo.databinding.FragmentTasksBinding
+import com.codinginflow.mvvmtodo.model.Task
 import com.codinginflow.mvvmtodo.util.onQueryTextChanged
 import com.codinginflow.mvvmtodo.viewmodel.tasks.SortOrder
 import com.codinginflow.mvvmtodo.viewmodel.tasks.TasksViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
-class TasksFragment : Fragment(R.layout.fragment_tasks) {
+class TasksFragment : Fragment(R.layout.fragment_tasks), TasksAdapter.OnItemClickListener {
 
     private val viewModel: TasksViewModel by viewModels()   //TODO: ViewModel
 
@@ -28,7 +29,7 @@ class TasksFragment : Fragment(R.layout.fragment_tasks) {
 
         val binding = FragmentTasksBinding.bind(view)   //Nao chama o .inflate pois o fragment já é recebido no constructor como objeto
 
-        val taskAdapter = TasksAdapter()
+        val taskAdapter = TasksAdapter(this)
 
         binding.apply {
             recyclerViewTasks.apply {
@@ -54,6 +55,14 @@ class TasksFragment : Fragment(R.layout.fragment_tasks) {
         } //lambda
 
         setHasOptionsMenu(true)
+    }
+
+    override fun onItemClick(task: Task) {
+        viewModel.onTaskSelected(task)
+    }
+
+    override fun onCheckBoxClick(task: Task, isChecked: Boolean) {
+        viewModel.onTaskCheckedChanged(task, isChecked)
     }
 
     override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {

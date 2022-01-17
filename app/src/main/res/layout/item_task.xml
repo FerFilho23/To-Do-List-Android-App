@@ -5,7 +5,7 @@
     android:padding="8dp">
 
     <CheckBox
-        android:id="@+id/checkbox"
+        android:id="@+id/task_checkbox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -16,10 +16,10 @@
         android:id="@+id/task_view_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@id/checkbox"
-        android:layout_alignBottom="@id/checkbox"
+        android:layout_alignTop="@id/task_checkbox"
+        android:layout_alignBottom="@id/task_checkbox"
         android:layout_toStartOf="@id/task_priority"
-        android:layout_toEndOf="@id/checkbox"
+        android:layout_toEndOf="@id/task_checkbox"
         android:ellipsize="end"
         android:gravity="center_vertical"
         android:maxLines="1"
