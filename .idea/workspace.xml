@@ -10,31 +10,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31404f08-f025-45ae-8022-53d1fc6d24e2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/navEditor.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codinginflow/mvvmtodo/model/PreferencesManager.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codinginflow/mvvmtodo/util/Utils.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codinginflow/mvvmtodo/view/AddEditTaskFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codinginflow/mvvmtodo/view/DeleteAllCompletedFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codinginflow/mvvmtodo/viewmodel/AddEditTaskViewModel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codinginflow/mvvmtodo/viewmodel/DeleteAllCompletedViewModel.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/codinginflow/mvvmtodo/ToDoApplication.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/codinginflow/mvvmtodo/ToDoApplication.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/codinginflow/mvvmtodo/model/Task.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/codinginflow/mvvmtodo/model/Task.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/codinginflow/mvvmtodo/model/TaskDao.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/codinginflow/mvvmtodo/model/TaskDao.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/codinginflow/mvvmtodo/model/TaskDatabase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/codinginflow/mvvmtodo/model/TaskDatabase.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/codinginflow/mvvmtodo/util/ViewExtensions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/codinginflow/mvvmtodo/util/ViewExtensions.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/codinginflow/mvvmtodo/view/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/codinginflow/mvvmtodo/view/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/codinginflow/mvvmtodo/view/tasks/TasksAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/codinginflow/mvvmtodo/view/TasksAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/codinginflow/mvvmtodo/view/tasks/TasksFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/codinginflow/mvvmtodo/view/TasksFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/codinginflow/mvvmtodo/viewmodel/tasks/TasksViewModel.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/codinginflow/mvvmtodo/view/AddEditTaskFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/codinginflow/mvvmtodo/view/AddEditTaskFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/codinginflow/mvvmtodo/viewmodel/AddEditTaskViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/codinginflow/mvvmtodo/viewmodel/AddEditTaskViewModel.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_add_edit_task.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_add_edit_task.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_tasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_tasks.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/navigation/nav_graph.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/navigation/nav_graph.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -236,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642431160829</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Finalizando o app">
+      <created>1642685753809</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1642685753809</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -257,6 +247,25 @@
     <MESSAGE value="ToDo App: order, search, hide completed tasks" />
     <MESSAGE value="Todo List: update checked tasks" />
     <MESSAGE value="Todo List: swipe to delete and undo option" />
-    <option name="LAST_COMMIT_MESSAGE" value="Todo List: swipe to delete and undo option" />
+    <MESSAGE value="Finalizando o app" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finalizando o app" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-function">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/codinginflow/mvvmtodo/viewmodel/AddEditTaskViewModel.kt</url>
+          <line>23</line>
+          <properties class="com.codinginflow.mvvmtodo.viewmodel.AddEditTaskViewModel" method="setTaskName" />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-function">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/codinginflow/mvvmtodo/viewmodel/AddEditTaskViewModel.kt</url>
+          <line>29</line>
+          <properties class="com.codinginflow.mvvmtodo.viewmodel.AddEditTaskViewModel" method="setTaskDescription" />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

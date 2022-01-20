@@ -30,6 +30,7 @@ class AddEditTaskFragment : Fragment(R.layout.fragment_add_edit_task) {
 
         binding.apply {
             editTextTaskName.setText(viewModel.taskName)
+            editTextTaskDescription.setText(viewModel.taskDescription)
             checkboxPriority.isChecked = viewModel.taskPriority
             checkboxPriority.jumpDrawablesToCurrentState()
             textViewDateCreated.isVisible = viewModel.task != null
@@ -37,6 +38,10 @@ class AddEditTaskFragment : Fragment(R.layout.fragment_add_edit_task) {
 
             editTextTaskName.addTextChangedListener {
                 viewModel.taskName = it.toString()
+            }
+
+            editTextTaskDescription.addTextChangedListener {
+                viewModel.taskDescription = it.toString()
             }
 
             checkboxPriority.setOnCheckedChangeListener{ _, isChecked ->

@@ -26,6 +26,12 @@ class AddEditTaskViewModel @ViewModelInject constructor(
             state.set("taskName", value)
         }
 
+    var taskDescription = state.get<String>("taskDescription") ?: task?.description ?: ""
+        set(value) {
+            field = value
+            state.set("taskDescription", value)
+        }
+
     var taskPriority = state.get<Boolean>("taskPriority") ?: task?.priority ?: false
         set(value) {
             field = value
@@ -42,11 +48,10 @@ class AddEditTaskViewModel @ViewModelInject constructor(
         }
 
         if (task != null) {
-
-            val updatedTask = task.copy(name = taskName, priority = taskPriority)
+            val updatedTask = task.copy(name = taskName, priority = taskPriority, taskDescription)
             updateTask(updatedTask)
         } else {
-            val newTask = Task(taskName, taskPriority)
+            val newTask = Task(taskName, taskPriority, taskDescription)
             createTask(newTask)
         }
     }

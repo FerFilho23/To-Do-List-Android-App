@@ -25,7 +25,7 @@ abstract class TaskDatabase : RoomDatabase(){
             val dao = database.get().taskDao()
 
             applicationScope.launch {
-                dao.insert(Task("Wash the dishes", priority = true, "wash the plates and cups", completed = false)) //TODO: tasks teste
+                dao.insert(Task("Wash the dishes", priority = true, "wash the plates and cups", completed = false)) //Testando as tasks
                 dao.insert(Task("Call Mom", priority = true, "(19)999999999", completed = true))
                 dao.insert(Task("Terminar o app", priority = false, "Corrigir os bugs", completed = false))
                 dao.insert(Task("Estudar Kotlin", priority = false, "", completed = true))
