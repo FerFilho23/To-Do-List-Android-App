@@ -1,7 +1,6 @@
-package com.codinginflow.mvvmtodo.view.tasks
+package com.codinginflow.mvvmtodo.view
 
 import android.view.LayoutInflater
-import android.view.OrientationEventListener
 import android.view.ViewGroup
 import androidx.core.view.isVisible
 import androidx.recyclerview.widget.DiffUtil

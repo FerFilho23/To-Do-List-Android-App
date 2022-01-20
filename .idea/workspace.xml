@@ -10,19 +10,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31404f08-f025-45ae-8022-53d1fc6d24e2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/navEditor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codinginflow/mvvmtodo/model/PreferencesManager.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codinginflow/mvvmtodo/util/Utils.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codinginflow/mvvmtodo/view/AddEditTaskFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codinginflow/mvvmtodo/view/DeleteAllCompletedFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codinginflow/mvvmtodo/viewmodel/AddEditTaskViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codinginflow/mvvmtodo/viewmodel/DeleteAllCompletedViewModel.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/codinginflow/mvvmtodo/view/tasks/TasksFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/codinginflow/mvvmtodo/view/tasks/TasksFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/codinginflow/mvvmtodo/viewmodel/tasks/TasksViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/codinginflow/mvvmtodo/viewmodel/tasks/TasksViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/codinginflow/mvvmtodo/ToDoApplication.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/codinginflow/mvvmtodo/ToDoApplication.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/codinginflow/mvvmtodo/model/Task.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/codinginflow/mvvmtodo/model/Task.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/codinginflow/mvvmtodo/model/TaskDao.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/codinginflow/mvvmtodo/model/TaskDao.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/codinginflow/mvvmtodo/model/TaskDatabase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/codinginflow/mvvmtodo/model/TaskDatabase.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/codinginflow/mvvmtodo/util/ViewExtensions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/codinginflow/mvvmtodo/util/ViewExtensions.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/codinginflow/mvvmtodo/view/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/codinginflow/mvvmtodo/view/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/codinginflow/mvvmtodo/view/tasks/TasksAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/codinginflow/mvvmtodo/view/TasksAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/codinginflow/mvvmtodo/view/tasks/TasksFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/codinginflow/mvvmtodo/view/TasksFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/codinginflow/mvvmtodo/viewmodel/tasks/TasksViewModel.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_add_edit_task.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_add_edit_task.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_tasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_tasks.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/navigation/nav_graph.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/navigation/nav_graph.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[/home/fernando/.android/avd/Pixel_XL_API_30.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[/home/fernando/.android/avd/Nexus_6P_API_30.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -64,6 +83,7 @@
         <option value="Kotlin Interface" />
         <option value="Kotlin Object" />
         <option value="resourceFile" />
+        <option value="Kotlin File" />
         <option value="Kotlin Class" />
       </list>
     </option>
@@ -79,14 +99,16 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android-custom-view/home/fernando/.gradle/caches/modules-2/files-2.1/androidx.appcompat/appcompat/1.2.0/13e8ff89631c2e101eb6bddd12c2fb4bbd74b15d/appcompat-1.2.0-sources.jar!/androidx/appcompat/widget/SearchView.java_SELECTED" value="SearchView" />
     <property name="android-custom-view/home/fernando/.gradle/caches/modules-2/files-2.1/androidx.appcompat/appcompat/1.2.0/13e8ff89631c2e101eb6bddd12c2fb4bbd74b15d/appcompat-1.2.0-sources.jar!/androidx/appcompat/widget/SearchView.java_SearchView_DIMENSIONS" value="1080&#10;1920" />
     <property name="android-custom-view/home/fernando/.gradle/caches/modules-2/files-2.1/androidx.recyclerview/recyclerview/1.1.0/f2bdf79e1977939817f54a9d3e2f6bc52b63bdd0/recyclerview-1.1.0-sources.jar!/androidx/recyclerview/widget/RecyclerView.java_RecyclerView_DIMENSIONS" value="1080&#10;1920" />
     <property name="android-custom-view/home/fernando/.gradle/caches/modules-2/files-2.1/androidx.recyclerview/recyclerview/1.1.0/f2bdf79e1977939817f54a9d3e2f6bc52b63bdd0/recyclerview-1.1.0-sources.jar!/androidx/recyclerview/widget/RecyclerView.java_SELECTED" value="RecyclerView" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/java/com/codinginflow/mvvmtodo/model" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/java/com/codinginflow/mvvmtodo/model" />
       <recent name="$PROJECT_DIR$/app/src/main" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -94,8 +116,13 @@
       <recent name="$PROJECT_DIR$/app/src/main/java/com/codinginflow/todolist" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.codinginflow.mvvmtodo.viewmodel" />
+      <recent name="com.codinginflow.mvvmtodo.view" />
       <recent name="com.codinginflow.mvvmtodo.ui" />
       <recent name="com.todolist" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.codinginflow.mvvmtodo.viewmodel" />
     </key>
   </component>
   <component name="RunManager">
@@ -202,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642428479586</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Todo List: swipe to delete and undo option">
+      <created>1642431160829</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1642431160829</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -222,6 +256,7 @@
     <MESSAGE value="Revert &quot;Android To Do App: search, order, hide completed&quot;&#10;&#10;This reverts commit 1a72984c" />
     <MESSAGE value="ToDo App: order, search, hide completed tasks" />
     <MESSAGE value="Todo List: update checked tasks" />
-    <option name="LAST_COMMIT_MESSAGE" value="Todo List: update checked tasks" />
+    <MESSAGE value="Todo List: swipe to delete and undo option" />
+    <option name="LAST_COMMIT_MESSAGE" value="Todo List: swipe to delete and undo option" />
   </component>
 </project>

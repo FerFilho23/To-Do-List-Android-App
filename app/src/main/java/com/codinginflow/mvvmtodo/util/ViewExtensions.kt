@@ -1,6 +1,5 @@
 package com.codinginflow.mvvmtodo.util
 
-import androidx.appcompat.widget.ForwardingListener
 import androidx.appcompat.widget.SearchView
 
 //Extensions function on SearchView
